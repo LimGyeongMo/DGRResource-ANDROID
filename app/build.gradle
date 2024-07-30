@@ -13,7 +13,7 @@ android {
         minSdk 24
         targetSdk 33
         versionCode 1
-        versionName "0.0.3"
+        versionName "0.0.6"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -41,14 +41,14 @@ afterEvaluate {
 
                 groupId = 'com.github.LimGyeongMo'
                 artifactId = 'reTest'
-                version = '0.0.3'
+                version = '0.0.6'
             }
             create("debug", MavenPublication) {
                 from components.findByName("debug")
 
                 groupId = 'com.github.LimGyeongMo'
                 artifactId = 'reTest'
-                version = '0.0.3'
+                version = '0.0.6'
             }
         }
         repositories {
