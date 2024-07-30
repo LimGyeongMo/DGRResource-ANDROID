@@ -6,6 +6,7 @@ plugins {
 
 android {
     namespace 'com.project.retest'
+    compileSdk 34
 
     defaultConfig {
 //        applicationId "com.project.retest"
@@ -40,14 +41,14 @@ afterEvaluate {
 
                 groupId = 'com.github.LimGyeongMo'
                 artifactId = 'reTest'
-                version = '0.0.6'
+                version = '0.0.4'
             }
             create("debug", MavenPublication) {
                 from components.findByName("debug")
 
                 groupId = 'com.github.LimGyeongMo'
                 artifactId = 'reTest'
-                version = '0.0.6'
+                version = '0.0.4'
             }
         }
         repositories {
