@@ -14,10 +14,8 @@ public class testUtil {
         this.context = context;
     }
 
-
     public void showToast(String msg) {
         Toast myToast = Toast.makeText(context,msg, Toast.LENGTH_SHORT);
         myToast.show();
-
     }
 }
