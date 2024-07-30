@@ -5,13 +5,10 @@ plugins {
 }
 
 android {
-    namespace 'com.project.retest'
-    compileSdk 33
-
     defaultConfig {
 //        applicationId "com.project.retest"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "0.0.4"
 
@@ -55,6 +52,8 @@ afterEvaluate {
             mavenLocal()
         }
     }
+
+    namespace 'com.project.retest'
 }
 
 dependencies {
