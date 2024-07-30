@@ -6,12 +6,13 @@ plugins {
 
 android {
     namespace 'com.project.retest'
+
     defaultConfig {
 //        applicationId "com.project.retest"
         minSdk 24
         targetSdk 34
         versionCode 1
-        versionName "0.0.4"
+        versionName "0.0.5"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -39,14 +40,14 @@ afterEvaluate {
 
                 groupId = 'com.github.LimGyeongMo'
                 artifactId = 'reTest'
-                version = '0.0.4'
+                version = '0.0.5'
             }
             create("debug", MavenPublication) {
                 from components.findByName("debug")
 
                 groupId = 'com.github.LimGyeongMo'
                 artifactId = 'reTest'
-                version = '0.0.4'
+                version = '0.0.5'
             }
         }
         repositories {
