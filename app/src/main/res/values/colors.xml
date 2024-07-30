@@ -3,7 +3,7 @@
     <color name="transparent">#00000000</color>
 
     <color name="primary50">#DFF6FF</color>
-    <color name="">#ACE7EC</color>
+    <color name="primary100">#ACE7EC</color>
     <color name="primary200">#70D8FF</color>
     <color name="primary500">#01CAFE</color>
     <color name="primary700">#00BCFF</color>
